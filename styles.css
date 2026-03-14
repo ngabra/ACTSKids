@@ -191,4 +191,43 @@ font-size:36px;
 padding:80px 20px;
 }
 
+/* Registration Form */
+
+.register-form{
+max-width:600px;
+margin:40px auto;
+text-align:left;
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.register-form label{
+font-weight:600;
+color:var(--acts-blue);
+}
+
+.register-form input,
+.register-form textarea{
+
+padding:12px;
+border-radius:8px;
+border:1px solid #ccc;
+font-size:16px;
+font-family:'Nunito', sans-serif;
+
+}
+
+.register-form input:focus,
+.register-form textarea:focus{
+
+outline:none;
+border:1px solid var(--acts-orange);
+
+}
+
+.register-form button{
+margin-top:10px;
+}
+
 }
